@@ -1,0 +1,11 @@
+name: AnticaCore
+version: ${project.version}
+main: me.gizmonster.anticacore.AnticaCorePlugin
+api-version: 1.13
+description: Handles many aspects of Antica
+commands:
+  ashop:
+    description: Handles shop related features
+  localizedname:
+    description: Allows for manipulation of localized name for items
+    aliases: [ln, localizedname]
